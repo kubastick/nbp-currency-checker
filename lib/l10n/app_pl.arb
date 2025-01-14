@@ -1,0 +1,28 @@
+{
+  "home_nbpCurrencyChecker": "NBP Currency Checker",
+  "home_currencyDate": "Data waluty",
+  "home_details": "Szczegóły:",
+  "exchangeRateCard_yesterdayNBPRate": "Wczorajszy kurs wymiany NBP: ({date})",
+  "@exchangeRateCard_yesterdayNBPRate": {
+    "placeholders": {
+      "date": {
+        "type": "DateTime",
+        "format": "yMd"
+      }
+    }
+  },
+  "exchangeRateCard_noExchangeRates": "W poprzednim dniu nie zostały opublikowane żadne kursy wymiany",
+  "exchangeRateCard_somethingWentWrong": "Coś poszło nie tak",
+  "currencyDifference_exchangeRateIncreased": "Kurs się zwiększył",
+  "currencyDifference_exchangeRateDecreased": "Kurs się zmniejszył",
+  "currencyDifference_exchangeRateRemainedUnchanged": "Kurs nie uległ zmianie",
+  "currencyDifference_difference": "Różnica: {difference}",
+  "@currencyDifference_difference": {
+    "placeholders": {
+      "difference": {
+        "type": "String",
+        "example": "1.2345"
+      }
+    }
+  }
+}

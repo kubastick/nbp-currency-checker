@@ -1,8 +1,10 @@
-import 'package:freezed_annotation/freezed_annotation.dart';
-
-part 'home_page_state.freezed.dart';
+part of 'home_page_cubit.dart';
 
 @freezed
 class HomePageState with _$HomePageState {
-  const factory HomePageState.idle() = _HomePageStateIdle;
+  const factory HomePageState.loading() = _HomePageStateLoading;
+
+  const factory HomePageState.idle({
+    required DateTime currencyDate,
+  }) = _HomePageStateIdle;
 }

@@ -1,8 +1,16 @@
 include: package:very_good_analysis/analysis_options.yaml
 
+analyzer:
+  exclude:
+    - '**.freezed.dart'
+    - '**.g.dart'
+    - '**.gr.dart'
+    - '**/generated_plugin_registrant.dart'
+
 linter:
   rules:
     # Not necessary for an app project
     public_member_api_docs: false
     # I personally prefer 120 character line length
     lines_longer_than_80_chars: false
+    one_member_abstracts: false

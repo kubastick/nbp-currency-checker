@@ -44,8 +44,12 @@ app.*.map.json
 /android/app/profile
 /android/app/release
 
-# Generated file
+# Generated files
 *.gr.dart
 *.config.dart
 *.g.dart
 *.freezed.dart
+*.chopper.dart
+
+# Code coverage
+lcov.info

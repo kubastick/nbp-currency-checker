@@ -1,0 +1,28 @@
+{
+  "home_nbpCurrencyChecker": "NBP Currency Checker",
+  "home_currencyDate": "Currency date",
+  "home_details": "Details:",
+  "exchangeRateCard_yesterdayNBPRate": "Yesterday NBP exchange rate: ({date})",
+  "@exchangeRateCard_yesterdayNBPRate": {
+    "placeholders": {
+      "date": {
+        "type": "DateTime",
+        "format": "yMd"
+      }
+    }
+  },
+  "exchangeRateCard_noExchangeRates": "No exchange rates are available for the previous day",
+  "exchangeRateCard_somethingWentWrong": "Something went wrong",
+  "currencyDifference_exchangeRateIncreased": "Exchange rate has increased",
+  "currencyDifference_exchangeRateDecreased": "Exchange rate has decreased",
+  "currencyDifference_exchangeRateRemainedUnchanged": "Exchange rate remained unchanged",
+  "currencyDifference_difference": "Difference: {difference}",
+  "@currencyDifference_difference": {
+    "placeholders": {
+      "difference": {
+        "type": "String",
+        "example": "1.2345"
+      }
+    }
+  }
+}

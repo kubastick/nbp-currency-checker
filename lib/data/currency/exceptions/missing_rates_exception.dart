@@ -1,0 +1,1 @@
+class MissingRatesException implements Exception {}
